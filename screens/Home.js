@@ -6,8 +6,8 @@ import {useSelector,useDispatch} from "react-redux";
 import { State } from 'react-native-gesture-handler';
 
 const Home=({navigation,route})=>{
-    const [data, setData] = useState([])
-    const [loading,setLoading] = useState(true)
+    // const [data, setData] = useState([])
+    // const [loading,setLoading] = useState(true)
   
 const {data,loading} = useSelector((state)=>{
         return state
@@ -17,8 +17,14 @@ const {data,loading} = useSelector((state)=>{
     fetch("http://a1dbf9f0.ngrok.io/")
     .then(res=>res.json())
     .then(results=>{
-        setData(results)
-        setLoading(false)
+        // setData(results)
+        // setLoading(false)
+
+        const dispatch = useDispatch()
+        const {data, loading} = useSelector((state)=>{
+            return 
+        })
+        
     }).catch(err=>{
         Alert.alert("Hey! Amigo, Check your Network... ")
     })
