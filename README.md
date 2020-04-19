@@ -81,6 +81,10 @@ or
 ```
 yarn start
 ```
+or
+```
+npm run-android or IOS
+```
 
 ## Break down into end to end tests
 
