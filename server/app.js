@@ -6,10 +6,10 @@ require('./Employee')
 
 
 app.use(bodyParser.json())
-//7qJqOB3z7NVudfo9
+
 const Employee = mongoose.model("employee")
 
-const mongoUri = "mongodb+srv://Utkarsh:7qJqOB3z7NVudfo9@amigos-fpfdz.mongodb.net/test?retryWrites=true&w=majority"
+const mongoUri = <enter userid>
 mongoose.connect(mongoUri,{
     useNewUrlParser:true,
     useUnifiedTopology: true
