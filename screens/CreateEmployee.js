@@ -37,7 +37,7 @@ const CreateEmployee=({navigation,route})=>{
     const [modal,setModal] = useState(false)
 
     const submitData = ()=>{
-        fetch("http://a1dbf9f0.ngrok.io/send-data",{
+        fetch("http://127.0.0.1:4040/send-data",{
             method:"post",
             headers:{
                 'Content-Type': 'application/json'
@@ -64,7 +64,7 @@ const CreateEmployee=({navigation,route})=>{
     }
 
     const updateDetails=()=>{
-        fetch("http://a1dbf9f0.ngrok.io/update",{
+        fetch("http://127.0.0.1:4040/update",{
             method:"post",
             headers:{
                 'Content-Type': 'application/json'

@@ -9,22 +9,23 @@ const Home=({navigation,route})=>{
     // const [data, setData] = useState([])
     // const [loading,setLoading] = useState(true)
   
-const {data,loading} = useSelector((state)=>{
+
+    const dispatch = useDispatch()
+    const {data, loading} = useSelector((state)=>{
         return state
     })
+    console.log(data,loading)
+
 
    const fetchData = ()=>{
-    fetch("http://a1dbf9f0.ngrok.io/")
+    fetch("http://127.0.0.1:4040/")
     .then(res=>res.json())
     .then(results=>{
         // setData(results)
         // setLoading(false)
 
-        const dispatch = useDispatch()
-        const {data, loading} = useSelector((state)=>{
-            return 
-        })
-        
+        dispatch({type:"ADD_DATA",payload:results})
+        dispatch({type:"SET_LOADING",payload:false})
     }).catch(err=>{
         Alert.alert("Hey! Amigo, Check your Network... ")
     })
