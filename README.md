@@ -1,8 +1,6 @@
 <p align="center">
   <a>
-  <img src="https://img.icons8.com/plasticine/100/000000/android-os.png"/>
-    <img alt = "React" src="https://img.icons8.com/color/144/000000/react-native.png"/>
-    <img src="https://img.icons8.com/plasticine/100/000000/mac-os.png"/>
+  <img align="center" src="https://github.com/Uyadav207/Amigos/blob/master/assets/screen.jpeg" height="400" width="200"/>  
   </a>
 </p>
 <h1 align="center">
