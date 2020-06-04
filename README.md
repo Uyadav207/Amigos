@@ -15,105 +15,98 @@
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/Uyadav207?label=Follow&style=social">
 </p>
 
+CONTENTS OF THIS FILE
+---------------------
+
+ * Introduction
+ * Requirements
+ * Recommended modules
+ * Installation
+ * Configuration
+ * Security
+ * FAQ
+ * Maintainers
+ 
+INTRODUCTION
+------------
+
 Amigos is React-Native Mobile-Application with a Server code made with NodeJS and Redux to be added Soon... and The application stores the email | Name | Profile | Contact | Salary | websites | of your friends and colleagues...  
+   
+REQUIREMENTS
+------------
+Before Getting started with the contribution PLease Ensure to visit follow pages for Guidance and better understanding :
 
-## Getting Started
+- [React-Native](https://reactnative.dev/)
+- [Expo-Cli WorkFlow](https://docs.expo.io/workflow/expo-cli/)
+- [React-Navigation](https://reactnavigation.org/docs/getting-started) 
 
-React is the framework of javascript made by **Facebook_Community**, well documented on [Learn REACT](https://reactjs.org). 
+RECOMMENDED MODULES
+-------------------
 
+ * This Repo Requires no Modules..
+   
+Installation
+------------
 
-* Fork the [Repository](https://github.com/Uyadav207/Weather_report).
-* Now Head On to your repository section and download a zip or Open on Desktop **Recommended** (Open On Desktop).
-* Or Follow the Step : Copy The code Below 👇👇👇👇
- * Open a Terminal
-```
-git clone <SSH/FileName>
-cd Amigos
-code . / atom .
-```
-* use `code . ` for [VsCode](https://code.visualstudio.com/)
-* use `atom .` for [Atom](https://atom.io/)
-
-### Prerequisites
-
-* React-Native Understanding working with **Expo-Cli** and **React-native-Cli** .
-* Node.js Understanding it should be installed in your local Machine.
-* **Bash Knowledge** : If Not follow the steps you will learn a little of it on the way of project setup.
-* UI and UX Dwsigning : IOS or ANDROID...📱
- * you are Good to go Now .... 🖖❤👍👍
-
-### Installing
-
-Follow the Steps Below to Install the Packages Required.
+- Fork the Repository [HERE](https://github.com/Uyadav207/TubeStore)
+- Do not forget to star it. ⭐
 
 ```
-npm install 
+git clone <FileName>.git 
+cd TubeStore
+```
+Running Local
 
-```
-if any error occurs : Do install the Packages seperately like Below:
-
-```
-$ yarn add @fortawesome/fontawesome-svg-core
-$ yarn add @fortawesome/free-solid-svg-icons
-$ yarn add @fortawesome/react-fontawesome
-```
-Wait Until installation is Finished..........Now follow the steps below.
-
-* Using VsCode
-```
-code .
-```
-
-* Using Atom
-```
-atom .
-```
-
-## Running the tests
-
-* To run the test on Your Local Environment.
-```
-npm start
-```
-or
 ```
 yarn start
+  -- Expo start / npm start
+
+scan the QR from Expo Application.
 ```
-or
+   
+CONFIGURATION
+-------------
+### Dependencies
+
 ```
-npm run-android or IOS
+ "@react-native-community/masked-view": "^0.1.5",
+    "@react-navigation/native": "^5.1.4",
+    "@react-navigation/stack": "^5.2.9",
+    "expo": "~36.0.0",
+    "expo-image-picker": "^8.0.2",
+    "expo-linear-gradient": "~8.0.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-paper": "^3.6.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-safe-area-context": "^0.6.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-web": "~0.11.7",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+```
+### Dev-Dependencies
+
+```
+"@babel/core": "^7.0.0",
+    "babel-preset-expo": "~8.0.0"
 ```
 
-## Break down into end to end tests
+Security
+---------
 
-Now to Preview what's in it follow the steps below:
-* Head on to any Browser **Chrome RECOMMENDED**
- * go to :
- ```
- localhost:3000  
-```
-Now You are Good to go 😜😜😍😍👌👌👌👌👌👌 You did a Great Job Folk..and eventually u Learned Bash 👨‍💻👨‍💻
+- Visit[SECURITY.md](https://github.com/Uyadav207/Amigos/blob/master/SECURITY.md)
 
-## Deployment
+FAQ
+---
 
-For Deployment Purpose [Github Pages](https://pages.github.com/) is Used. 
+- For Queryies Raise Issues [Here](https://github.com/Uyadav207/Amigos/issues)
+   
+   
+MAINTAINERS
+-----------
 
-## Built With
-
-* [ReactJS](https://reactjs.org/) - The web framework used for Front-End
-* [Githug Pages](https://pages.github.com/) - Deployment
-
-## Author
-
-* **Utkarsh Yadav** - *Github student developer and a MERN developer* - [@Uyadav207](https://github.com/Uyadav207)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* [Openweatherapi](https://openweathermap.org/)
-* [Deploy Github Pages](https://www.youtube.com/watch?v=F8s4Ng-re0E)👈👈😍
+Current maintainers:
+ * [Utkarsh-Yadav](https://github.com/Uyadav207)
