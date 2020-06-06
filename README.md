@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Amigos ❤
+  Amigos 
 </h1>
 
 <p align="center">
